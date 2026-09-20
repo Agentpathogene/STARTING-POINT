@@ -34,6 +34,16 @@ int main (void)
 
   printf("hello world!\n");
   printf("la valeur de ma_variable = %d\n",ma_variable);
+  /* char = %hhd => valeur , int = %d , short = %hd , long = %ld , unsigned char = %hhu
+    unsigned int = %u , unsigned char = %hhu , unsigned long = %lu , 
+    char = %c => caractere, float = %f, double = %lf */
+  //LE LANGUAGE C EST SENSIBLE A LA CASSE
+  //LE NOM D UNE VARIABLE PUEUX PAS COMMENCER PAR 0
+  //QUAND ON INITIALISE UNE VARIABLE SANS DONNER DE VALEUR ELLE CONTIENT UNE VALEUR PAR DEFAULT
+  //QUI TRAINE EN MEMOIRE
+
+
+
 
 
 
@@ -42,5 +52,6 @@ int main (void)
 
   return 0;
 }
+
 
 
