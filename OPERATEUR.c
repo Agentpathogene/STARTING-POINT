@@ -40,7 +40,8 @@ int main (void)
 //on a aussi >> et << qui decale de nb de case demande les bits vers la gauche ou droite
 //ce qui depasse etant rejete pas mis au debut
 
-
+//NB ON A LA PRE INCREMENTATION ++i QUI AUGMENTE VALEUR AVANT D UTILISER LA VARIABLE
+   //ET LA POST INCREMENTATION i++ QUI AUGMENTE VALEUR APRES UTILISATION
 
 
 //tout ces operateur peuvent prendre raccourci 1 genre car += 5
