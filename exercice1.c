@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-
+//exercice de base pour faire une moyenne de 5 notes
+//aucune gestion d erreur ni boucle d optimisation c est un exercice pour mon niveau actuel __ noob
 int main (void)
 
 {
