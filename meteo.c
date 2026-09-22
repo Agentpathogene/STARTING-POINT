@@ -100,8 +100,6 @@ int evaluation_de_la_meteo (int a,int b, int c )
     return 0;
 }
 
-
-
 int main (void)
 {
 
@@ -110,8 +108,6 @@ int main (void)
     int humidite;
     printf("Entrez les donnee meteorologique chiffre seulement:>\n");
 
-
-
     //vitesse du vent 
     int x;
     printf("Entrez la vitesse du vent :>");
@@ -119,10 +115,6 @@ int main (void)
     printf("SET vitess_du vent = %d km/h\n",vitesse_du_vent);
     x = vitesse_du_vent_vs_moyenne(vitesse_du_vent);
    
-    
-
-
-
 
     //presssion athmospherique
     int y;
@@ -131,11 +123,6 @@ int main (void)
     printf("SET pression_athmospherique = %d \n");
     y = pression_athmospherique_vs_moyenne(pression_athmospherique);
    
-
-
-
-
-
     //humidite de l'air
     int z;
     printf("Entrez le taux d'humidité de l'air :>");
@@ -143,16 +130,8 @@ int main (void)
     printf("SET humidite_de_l_air = %d pourcent\n");
     z = taux_humidite_vs_moyenne(humidite);
   
-
-
-
-
     //Determinations de la meteo depuis els donnes recoltees
     evaluation_de_la_meteo(x,y,z);
-
-
-
-    
 
     return 0;
 }
